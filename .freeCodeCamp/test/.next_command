@@ -281,3 +281,8 @@ pg_dump -cC --inserts -U freecodecamp universe > universe.sql
 git remote rm origin
 git remote add origin https://github.com/phuocqt/universeDB_freecodecamp.git
 git add .
+git commit -m "create sql"
+git push
+git push --set-upstream origin main
+git init
+git add .
